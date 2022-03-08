@@ -4,13 +4,16 @@ body {
 /*section1*/
 .header {
     background-color: #1F2937;
-    font-size: 24px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 90px;
     align-items: center;
+}
+
+.hero {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 ul {
@@ -28,6 +31,7 @@ li {
     padding: 60px 90px;
     justify-content: space-around;
     margin-bottom: 32px;
+    gap: 16px;
 }
 
 .main {
@@ -41,12 +45,14 @@ li {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
+    max-width: 700px;
 }
 
 button {
     background-color: #3882f6;
     padding: 8px 16px;
     color: #E5E7EB;
+    border-radius: 5px;
 }
 
 img {
@@ -55,6 +61,7 @@ img {
     flex-shrink: 0;
     padding: 40px;
     margin-left: 60px;
+    border-radius: 10px;
 }
 /*section3*/
 .body2 {
@@ -105,4 +112,26 @@ img {
     display: flex;
     align-self: flex-end;
     font-weight: bold;
+}
+/*sections5*/
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 60px 90px;
+}
+
+.container3 {
+    padding: 30px 40px;
+    display: flex;
+    background-color: #3882f6;
+    gap: 16px;
+    flex: 1;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
